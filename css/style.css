@@ -8,4 +8,106 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f8f9;
+}
+
+header {
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+header img {
+    padding: 10px 25px;
+}
+
+.main-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.button-container {
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 3px;
+}
+
+.button {
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-section {
+    border-color: #c4cbd0;
+    background-color: white;
+}
+
+.add-task {
+    background-color: #14aaf5;
+    border: none;
+}
+
+.task-container {
+    padding: 35px 55px;
+    background-color: white;
+    margin-bottom: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+.icon {
+    display: inline-block;
+    margin: 20px 10px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.check {
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+}
+
+.cross {
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 10px;
+    color: white;
+}
+
+.editorial {
+    background-color: #14aaf5;
+}
+
+.goal {
+    background-color: #ab5de6;
+}
+
+.recruiting {
+    background-color: #2cc6ab;
+}
+
+.mobile {
+    background-color: #ff9b00;
+}
+
+.website {
+    background-color: #ec4a9d;
+}
+
+.sales {
+    background-color: #a3d116;
 }
